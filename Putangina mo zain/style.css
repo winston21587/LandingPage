@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./image\ 35.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  width: 100%;
+}
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.WholeContent {
+  display: flex;
+  width: 100%;
+}
+.ContentLeft,
+.ContentRight {
+  width: 50%;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.BottomContent {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  padding-right: 100px;
+}
+.BT-Content {
+  margin: 20px;
+}
