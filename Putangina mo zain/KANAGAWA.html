@@ -4,67 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KANAGAWA</title>
-    <link rel="stylesheet" href="KANAGAWA.css" />
+    <link rel="stylesheet" href="./KANAGAWA.css" />
+    <link rel="stylesheet" href="SideBar.css" />
   </head>
   <body>
     <section>
       <h1>KANAGAWA</h1>
-      <div class="SideBar-Content-1">
-        <a href="#"
-          ><li>
-            <img src="./Assets/Home Page.svg" />
-            <p>Home</p>
-          </li></a
-        >
-        <a href="#"
-          ><li>
-            <img src="./Assets/Home Page.svg"/>
-            <p>Library</p>
-          </li></a
-        >
-        <a href="#"
-          ><li>
-            <img src="./Assets/Home Page.svg" />
-            <p>Store</p>
-          </li></a
-        >
-        <a href="#"
-          ><li>
-            <img src="./Assets/Home Page.svg" />
-            <p>Whishlist</p>
-          </li></a
-        >
-      </div>
-      <div class="SideBar-Content-2">
-        <a href="#"
-          ><li>
-            <img src="./Assets/Home Page.svg"/>
-            <p>Discount</p>
-          </li></a
-        >
-        <a href="#"
-          ><li>
-            <img src="./Assets/Home Page.svg" />
-            <p>Wallet | 6969</p>
-          </li></a
-        >
+      <div class="Sidebar-all-Contents">
+        <div class="SideBar-Content-1">
+          <a href="./index.html"
+            ><li class="SideBar-Links">
+              <img src="./Assets/Home Page.svg" />
+              <p class="Link-Text">Home</p>
+            </li></a
+          >
+          <a href="#"
+            ><li class="SideBar-Links">
+              <img src="./Assets/Market_icon.svg" />
+              <p class="Link-Text">Games</p>
+            </li></a
+          >
+          <a href="#"
+            ><li class="SideBar-Links">
+              <img src="./Assets/Wishlist_icon.svg" />
+              <p class="Link-Text">Whishlist</p>
+            </li></a
+          >
+        </div>
+        <div class="Sidebar-content-2">
+          <a href="#"
+            ><li class="SideBar-Links">
+              <img src="./Assets/Wallet.svg" />
+              <p class="Link-Text">Wallet | 6969</p>
+            </li></a
+          >
+        </div>
       </div>
     </section>
     <main>
       <div class="TopBar">
         <div class="Notif">
-          <img src="./Assets/Home Page.svg" />
-          <img src="./Assets/Home Page.svg" />
+          <a href="#">
+            <img src="./Assets/Shopping Cart.svg" />
+          </a>
+          <a href="#">
+            <img src="./Assets/Bell_Notification.svg" />
+          </a>
         </div>
-        <input type="text" />
-        <img src="./Assets/Home Page.svg"/>
+        <div class="SearchBar-container">
+          <img src="./Assets/Search.svg" class="Search-svg" />
+          <input type="text" class="SearchBar" />
+        </div>
+        <img src="./Assets/Profile.png" />
       </div>
-      <div class="Content-Container">
-        <div class="MainContent"></div>
-        <div class="Reccomendation">
-            <div class="Option-1 Options"></div>
-            <div class="Option-2 Options"></div>
 
+      <div class="Content-Container">
+        <div class="MainContent">
+          <div class="GameDescription">
+            <div>
+              <h2>Mario Casher Simulator</h2>
+              <a class="Game_tags" href="#">Adventure</a>
+              <a class="Game_tags" href="#">Puzzle</a>
+              <a class="Game_tags" href="#">Platformer</a>
+            </div>
+            <div class="Price">
+              <p class="PriceText">499$</p>
+            </div>
+          </div>
+        </div>
+        <div class="Reccomendation_text">
+          <div>
+            <button class="Circle-Nav Active-button"></button>
+            <button class="Circle-Nav"></button>
+            <button class="Circle-Nav"></button>
+            <button class="Circle-Nav"></button>
+          </div>
+          <h3>Daily Reccomendation</h3>
+          <p>View all</p>
+        </div>
+        <div class="Reccomendation">
+          <div class="Option-1 Options">
+            <div class="GameDescription">
+              <div>
+                <h3>Sonic Gets Arrested</h3>
+                <a class="Game_tags" href="#">Adventure</a>
+                <a class="Game_tags" href="#">Puzzle</a>
+                <a class="Game_tags" href="#">horror</a>
+              </div>
+              <div class="Price">
+                <p class="PriceText">6942$</p>
+              </div>
+            </div>
+          </div>
+          <div class="Option-2 Options">
+            <div class="GameDescription">
+              <div>
+                <h3>Spider Guy</h3>
+                <a class="Game_tags" href="#">Adventure</a>
+                <a class="Game_tags" href="#">Platformer</a>
+              </div>
+              <div class="Price">
+                <p class="PriceText">4912$</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

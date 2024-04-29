@@ -37,10 +37,13 @@ nav {
   grid-template-columns: auto auto auto auto auto;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 li {
   list-style: none;
   padding: 1rem;
+  margin-top: 10px;
+  border-radius: 30px;
 }
 a {
   text-decoration: none;
@@ -90,7 +93,7 @@ h1 {
   justify-content: space-between;
   padding: 20px;
   padding-bottom: 10px;
-  width: 345px;
+  width: 295px;
 }
 .MoreInfo {
   width: 150px;
@@ -134,4 +137,14 @@ h3 {
 }
 h4 {
   font-size: 22px;
+}
+.Home {
+  text-decoration: underline rgba(255, 255, 255, 0.514) solid 2px;
+}
+.NavLink:hover {
+  background-color: rgba(255, 255, 255, 0.13);
+  transition: ease-in-out 0.15s;
+}
+button:hover{
+  cursor: pointer;
 }
